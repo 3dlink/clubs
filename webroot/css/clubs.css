@@ -1,0 +1,1277 @@
+@font-face{
+  font-family: "BebasNeue";
+  src: url("../fonts/BebasNeue.otf") format("opentype");
+  font-weight:normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: "BebasNeue";
+  src: url("../fonts/BebasNeue-Thin.otf") format("opentype");
+  font-weight:thin;
+  font-style: normal;
+}
+@font-face{
+  font-family: "BebasNeue";
+  src: url("../fonts/BebasNeue-Light.otf") format("opentype");
+  font-weight:lighter;
+  font-style: normal;
+}
+@font-face{
+  font-family: "BebasNeue";
+  src: url("../fonts/BebasNeue-Regular.otf") format("opentype");
+  font-weight:300;
+  font-style: normal;
+}
+@font-face{
+  font-family: "BebasNeue";
+  src: url("../fonts/BebasNeue-Book.otf") format("opentype");
+  font-weight:400;
+  font-style: normal;
+}
+@font-face{
+  font-family: "BebasNeue";
+  src: url("../fonts/BebasNeue-Bold.otf") format("opentype");
+  font-weight:bold;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Black.otf") format("opentype");
+  font-weight:300;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-BlackItalic.otf") format("opentype");
+  font-weight:300;
+  font-style: italic;
+}
+@font-face{
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Bold.otf") format("opentype");
+  font-weight:bold;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-BoldIta.otf") format("opentype");
+  font-weight:bold;
+  font-style: italic;
+}
+@font-face{
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Book.otf") format("opentype");
+  font-weight:400;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-BookIta.otf") format("opentype");
+  font-weight:400;
+  font-style: italic;
+}
+@font-face{
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Light.otf") format("opentype");
+  font-weight:lighter;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-LightIta.otf") format("opentype");
+  font-weight:lighter;
+  font-style: italic;
+}
+@font-face{
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Medium.otf") format("opentype");
+  font-weight:500;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-MediumIta.otf") format("opentype");
+  font-weight:500;
+  font-style: italic;
+}
+@font-face{
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Thin.otf") format("opentype");
+  font-weight:thin;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-ThinItalic.otf") format("opentype");
+  font-weight:thin;
+  font-style: italic;
+}
+@font-face{
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Ultra.otf") format("opentype");
+  font-weight:100;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-UltraItalic.otf") format("opentype");
+  font-weight:100;
+  font-style: italic;
+}
+@font-face{
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-XLight.otf") format("opentype");
+  font-weight:50;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-XLightItalic.otf") format("opentype");
+  font-weight:50;
+  font-style: italic;
+}
+
+.two .text_content{
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+  #index{
+	width:100%;
+  	max-width: 950px;
+  	margin: 0 auto;
+  }
+
+  .text_content{
+  	text-align: justify !important;
+  
+}
+
+
+.title{
+	font-size: 26px;
+}
+body {
+	width:100%;
+	margin: 0 auto;
+	font-family: "Gotham";
+  font-weight: normal;
+  position: relative;
+  overflow-x:hidden;
+}
+
+#header {
+	font-family: "Gotham";
+  font-weight:400;
+  font-size: 12px;
+  color: white;
+	height: 50px;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+	background: rgba(0,0,0,0.5);
+	padding: 0 200px;
+}
+
+#plan{
+	position: relative;
+}
+
+#footer {
+	font-family: "Gotham";
+  font-weight:400;
+  font-size: 10px;
+  color: white;
+	height: 125px;
+  z-index: 1000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+	background: rgba(0,0,0,0.5);
+	padding: 0 200px;
+}
+
+#rights{
+	height: 125px;
+	width: 230px;
+	float: left;
+	display: inline-block;
+	background-image: url('../img/rights.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	padding-top: 37px;
+	padding-left: 20px;
+	    width: 100px !important;
+	        text-align: left;
+}
+
+#home {
+	text-align: center;
+}
+
+#home ul {
+	padding-top: 0px;
+}
+
+
+li{
+	margin-bottom: 5px;
+}
+
+li a{
+	color: white;
+}
+
+li a:hover{
+	color: #4dacb7;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#clubs_2{
+	height: 125px;
+	width: 45px;
+	float: right;
+	display: inline-block;
+	background-image: url('../img/logo_clubs_2.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.menu_item{
+  height: 50px;
+  /*width: 150px;*/
+  display: inline-block;
+  cursor: pointer;
+  float: right;
+  padding: 17px 0px;
+  text-align: center;
+  margin: 0 15px;
+}
+
+.hw_men{
+	width: 100px;
+}
+.ap_men{
+	width: 40px;
+}
+.wh_men{
+	width: 120px
+}
+.fp_men{
+	width: 106px;
+}
+
+.menu_item:hover{
+  font-weight:bold;
+}
+
+#logo{
+	height: 50px;
+	width: 110px;
+	float: left;
+	display: inline-block;
+	cursor: pointer;
+	background-image: url('../img/logo.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#clubs{
+	height: 50px;
+	width: 23px;
+	    margin-left: 15px;
+	float: right;
+	display: inline-block;
+	cursor: pointer;
+	background-image: url('../img/logo_clubs.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#home{
+	width: 100%;
+	/*background-image: url('../img/home.png');*/
+	background-size: cover;
+	height: 870px;
+	position: relative;
+}
+
+#logo_home{
+	position: absolute;
+  top: 35%;
+  width: 170px;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+h1{
+	width: 100%;
+  float: left;
+  font-family: "Gotham";
+  font-weight: 400;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+#home h1{
+  margin-top: 500px;
+  margin-bottom: 50px;
+}
+
+.btn_clubs{
+  font-family: "BebasNeue";
+  font-weight:bold;
+	width: 190px;
+	height: 50px;
+	border-radius: 10px;
+	color: white;
+	margin: 0 auto;
+	border: none;
+	display: block;
+	display: -moz-inline-stack;
+	font-size: 23px;
+  letter-spacing: 3px;
+  padding-top: 5.5px;
+  padding-left: 10px;
+}
+
+.black_trans, .black_trans:focus{
+	background: rgba(0,0,0,0.5);
+}
+
+.black_trans:hover{
+	color: #194839;
+	background: white;
+}
+
+.blue_trans:hover{
+	color: rgb(0,225,225);
+	background: white;
+}
+
+.btn-pekeupload:hover{
+	background: black;
+	color: white !important;
+}
+
+
+.blue_trans, .blue_trans:focus{
+	background: rgba(0,225,225,0.5);
+}
+#home p {
+  font-family: "Gotham";
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  letter-spacing: 4px;
+}
+
+#goodbye{
+	width: 100%;
+  float: left;
+  padding: 90px;
+  background: white;
+}
+
+#goodbye p {
+  font-family: "Gotham";
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+  letter-spacing: 2px;
+}
+
+#goodbye h1{
+	color: #00e1ff;
+  margin-bottom: 50px;
+}
+
+#kobe{
+	width: 100%;
+	float: left;
+	/*background-image: url('../img/kobe.png');*/
+	background-size: cover;
+	height: 1115px;
+	position: relative;
+	padding-top: 60px;
+	*padding: 60px 200px;
+	position: relative;
+}
+
+#kobe > h1{
+	text-align: right;
+	margin-bottom: 70px;
+	padding-right: 200px;
+}
+
+#kobe > p {
+  font-family: "Gotham";
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  text-align: right;
+  letter-spacing: 2px;
+	margin-right: 200px;
+}
+
+#kobe > b {
+	color: #00e1ff;
+}
+
+#whats{
+	width: 100%;
+	float: left;
+	background-image: url('../img/fondo_degradado.png');
+	background-size: cover;
+	height: 547px;
+	*margin-top: 220px;
+	position: absolute;
+	bottom: 0;
+}
+
+#whats_contain{
+	width: 615px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+#whats h1{
+	color: #00e1ff;
+	margin-bottom: 100px;
+	font-size: 50px;
+}
+h1 b {
+	font-weight:100;
+}
+
+#whats h1 b {
+	font-weight:100;
+}
+
+#whats p {
+  font-family: "Gotham";
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#haka{
+	width: 100%;
+	float: left;
+	padding: 40px 0 70px;
+	background-image: url('../img/haka.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 730px;
+}
+
+#haka h1 {
+	margin-top: 100px;
+	font-size: 50px;
+}
+
+#haka h1 b {
+	font-weight:100;
+}
+
+#haka > div {
+	width: 100%;
+	float: left;
+	margin-top: 80px;
+}
+
+#haka > div > div {
+	width: 571px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#haka p{
+  font-family: "Gotham";
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+#bonus{
+	width: 100%;
+	float: left;
+	padding: 75px 200px;
+	background-image: url('../img/bonus.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 560px;
+}
+
+#bonus h1{
+	font-size: 50px;
+	font-weight: 100;
+	text-align: right;
+	margin-bottom: 65px;
+	letter-spacing: 3px;
+}
+
+#clubsin{
+	width: 100%;
+	float: left;
+	padding: 170px 0px 140px;
+	text-align: center;
+	background:white;
+	position: relative;
+	color: black;
+}
+
+#clubsin h1{
+	font-size: 50px;
+	font-weight: 100;
+	text-align: center;
+	letter-spacing: 3px;
+	color: black;
+	margin-top: 0;
+}
+
+#clubsin h4{
+	text-align: center;
+  font-family: "Gotham";
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.view-with-margin-v {
+    width: 560px;
+    margin: 80px auto;
+}
+
+#clubsin p {
+	text-align: center;
+  font-family: "Gotham";
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 85px;
+}
+
+#bonus p {
+  font-family: "Gotham";
+  font-weight: 400;
+  font-size: 15px;
+  text-align: right;
+  color: white;
+  letter-spacing: 2.6px;
+}
+
+#bonus b {
+	font-weight:700;
+}
+
+#chromecast {
+  position: absolute;
+  bottom: -195px;
+  left: 95px;
+  z-index: 99;
+}
+
+#plan{
+	width: 100%;
+	float: left;
+	padding: 90px 80px;
+	background-image: url('../img/tenis.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	*height: 1300px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+
+#plan h1{
+	font-size: 50px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 65px;
+	letter-spacing: 3px;
+}
+
+#plan h1 b {
+	font-weight:100;
+}
+
+#steps {
+	float: left;
+	width: 100%;
+	margin-top: -165px;
+	margin-bottom: 80px;
+	margin-left: 20px;
+}
+
+#apply {
+	float: left;
+	width: 100%;
+	background-image: url('../img/fondo_apply.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#apply_cont{
+	width: 100%;
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+#apply_cont b{
+  font-weight: 700;
+}
+
+h2{
+  font-family: "Gotham";
+  font-weight: 100;
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  letter-spacing: 2.6px;
+  margin-top: 125px;
+  margin-bottom: 55px;
+}
+
+#apply_cont > p{
+  font-family: "Gotham";
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+#personal_contact{
+	padding-right: 145px;
+	text-align: left;
+	position: relative;
+}
+
+#club_details{
+	padding-left: 145px;
+	text-align: right;
+}
+
+h3{
+  font-family: "Gotham";
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+	border: solid 1px white;
+	border-radius: 5px;
+	padding: 6px;
+	margin-bottom: 35px;
+}
+
+#personal_contact h3{
+	float: left;
+}
+
+#club_details h3{
+	float: right;
+}
+
+#form{
+	float: left;
+	margin-top: 70px;
+}
+
+.input_content{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.input_content > div{
+	padding: 0px;
+}
+
+.input_clubs{
+	width: 100%;
+	border-radius: 8px;
+	background-color: #cbe5e2;
+  font-family: "Gotham";
+  font-size: 12px;
+  font-weight:thin;
+  border: none;
+  font-style: italic;
+  color: #808285;
+  height: 35px;
+  padding-left: 10px;
+}
+
+label{
+	width: 100%;
+  font-family: "Gotham";
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.input_left{
+	padding-right: 10px !important;
+}
+
+.input_right{
+	padding-left: 10px !important;
+}
+
+.sub_label {
+  font-family: "Gotham";
+  font-size: 16px;
+  font-weight:400;
+  font-style: normal;
+}
+
+hr{
+	height: 320px;
+	width: 1px;
+	background:white;
+	position: absolute;
+  top: 50%;
+	right:0;
+	transform:translate(-50%,-50%);
+}
+
+#form p{
+  font-family: "Gotham";
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  float: left;
+  width: 100%;
+  margin-top: 85px;
+  margin-bottom: 60px;
+}
+
+.submit{
+	float: left;
+	width: 100%;
+}
+
+#submit_content{
+	width: 130px;
+	margin: 0 auto;
+}
+
+.left{
+	float: left;
+	text-align: left;
+}
+
+.right{
+	float: right;
+	text-align: right;
+}
+
+#submit_content > div {
+	float: left;
+	margin-bottom: 40px;
+}
+
+.radio_clubs{
+	cursor: pointer;
+	border: 1px solid white;
+	background-color:none;
+	width: 25px;
+	height: 25px;
+}
+
+.submit label {
+  font-family: "Gotham";
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+
+form .btn_clubs{
+	width: 100% !important;
+	margin-bottom: 205px; 
+	    padding-left: 10px;
+}
+
+#confirmation{
+	float: left;
+	width: 100%;
+	background-image: url('../img/fondo_confirmation.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	padding: 0 160px;
+	height: 1190px;
+}
+
+#confirmation h2{
+	margin-top: 220px;
+}
+
+
+#confirmation p{
+  font-family: "Gotham";
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+@keyframes animado {
+from{ opacity: 0;}
+to{opacity: 1;}
+}
+
+@-webkit-keyframes fadein {
+	from { 
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.animar {	
+	-webkit-animation-name: fadein;
+	-webkit-animation-duration: 2s;
+}
+
+.animated{
+	opacity: 0;
+}
+
+.btn-pekeupload{
+	background-color: rgba(255,255,255,0.8);
+  font-family: "BebasNeue";
+  font-weight:bold;
+	border-radius: 10px;
+	color: black;
+	border: none;
+	font-size: 23px;
+  letter-spacing: 3px;
+  padding: 15px;
+      padding-top: 19px;
+}
+
+.btn-pekeupload:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.btn-pekeupload:after, a:focus, a:hover{
+    text-decoration: none !important;	
+    color: #23527c !important;
+}
+
+#upload_btn{
+	width: initial !important;
+	padding: 0 15px;
+	margin-top: 40px;
+	padding-top: 1px;
+
+}
+
+:-moz-any(#upload_btn){
+  padding-top:5.5px !important; /* Firefox */
+}
+
+#burger{
+	display: none;
+	float: right;
+	height: 50px;
+	width: 50px;
+	float: right;
+	cursor: pointer;
+	background-image: url('../img/burguer.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#menu_movil{
+	display: none;
+	    float: left;
+    width: 100%;
+    font-size: 16px;
+}
+.menu_movil{
+	    padding: 10px 0px;
+    cursor: pointer;
+}
+.menu_movil:hover{
+    font-weight: bold;
+}
+
+.copy{
+  height: 27px;
+  border: solid 1px white;
+  border-radius: 10px;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+  float: left;
+  margin-top: 10px;
+  padding: 3px 10px !important;
+  font-size: 12px;
+}
+
+
+
+
+
+.parallax-window {
+    min-height: 800px;
+    background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+/*
+@media(min-width: 1400px){
+	#kobe .parallax img{
+	  transform: translate3d(-50%, 410px, 0px) !important;
+	}
+}
+
+*/
+
+@media(min-height: 900px){
+	#home h1 {
+    margin-top: 57vh;
+  }
+}
+
+@media(min-width: 1400px){
+	#kobe .parallax img{
+	  transform: translate3d(-50%, 450px, 0px) !important;
+	}
+	#home .parallax img{
+	  transform: translate3d(-50%, 360px, 0px) !important;
+	}
+}
+
+@media(min-width: 1700px){
+	#kobe .parallax img{
+	  transform: translate3d(-50%, 570px, 0px) !important;
+	}
+}
+
+@media(min-width: 1900px){
+	#kobe .parallax img{
+	  transform: translate3d(-50%, 700px, 0px) !important;
+	}
+}
+
+
+
+@media(max-width: 1200px){
+  #club_details {
+    padding-left: 60px;
+	}
+	#personal_contact {
+    padding-right: 60px;
+  }
+  .menu_item {
+    *width: 120px;
+  }
+  #header {
+    padding: 0 100px;
+  }
+  #footer {
+    padding: 0 100px;
+	}
+}
+
+@media(max-width: 1100px){
+  #footer {
+    padding: 0 100px;
+	}
+  #header {
+    padding: 0 100px;
+	}
+#confirmation h2 {
+    margin-top: 100px;
+}
+	#chromecast {
+    position: absolute;
+    bottom: -140px;
+    left: 50px;
+    z-index: 99;
+    width: 380px;
+	}
+}
+
+#confirmation {
+	height: inherit;
+  padding-bottom: 230px;
+  text-align: center;
+}
+
+@media(max-width: 990px){
+	hr{
+		display: none;
+	}
+	#club_details {
+		padding: 0;
+    text-align: left;
+	}
+	#personal_contact {
+		padding: 0;
+    text-align: left;
+  }
+
+  .input_right {
+    padding-left: 0px !important;
+    margin-top: 10px;
+	}
+
+	.input_left{
+    padding-right: 0px !important;
+	}
+
+	#submit_content {
+    width: 180px;
+    margin: 0 auto;
+	}
+
+}
+
+@media(max-width: 950px){
+	#bonus {
+    padding: 75px 80px;
+	}
+	.menu_item {
+    width: 130px;
+  }
+  .hw_men{
+  	width: 110px;
+    margin-right: 10px;
+  }
+  .ap_men{
+    width: 60px;
+  }
+  #footer {
+    padding: 0 50px;
+	}
+  #header {
+    padding: 0 50px;
+	}
+}
+
+@media(max-width: 850px){
+	#bonus {
+    height: 780px;
+	}
+	#apply_cont {
+    padding: 0 100px;
+	}
+
+	#confirmation {
+    padding: 0 50px;
+  padding-bottom: 230px;
+  }
+
+}
+@media(max-width: 800px){
+	#header_movil {
+		display: block;
+	}
+	.menu_web {
+		display: none !important;
+	}
+
+	#burger{
+		display: block;
+	}
+	#plan{
+		padding-left:30px;
+		padding-right:30px;
+	}
+}
+
+@media(max-width: 650px){
+	#apply_cont {
+    padding: 0 50px;
+	}
+}
+
+@media(max-width: 600px){
+
+/*	#title_gb{
+		font-size: 30px;
+	}*/
+	
+	#confirmation > p {
+    font-size: 16px;
+  }
+
+  #confirmation h2 {
+    font-size: 40px;
+  }
+	h1{
+		font-size: 30px !important;
+	}
+	
+
+	#goodbye {
+  padding: 120px 20px;
+	}
+
+	#goodbye > p{
+		font-size: 15px;
+	}
+
+	#kobe > h1 {
+		/*font-size: 30px;*/
+		padding-right: 10px;
+	}
+
+	#kobe > p {
+    font-size: 15px;
+    margin-right: 10px;
+	}		
+
+	#whats_contain{
+		width: 100%;
+	}
+
+	#whats_contain{
+		width: 100%;
+	}
+
+	#whats_contain > p, #haka p{
+		padding: 1px 15px;
+
+	}
+
+	#haka > div > div{
+		width: 100%; 
+	}
+
+	#bonus {
+		padding: 75px 10px;
+	}
+
+	#bonus > p > b{
+		font-size: 14px !important;
+	}
+
+	#clubsin h4 {
+    font-size: 25px;
+	}
+
+	#clubsin .view-with-margin-v{
+		width: 100%;
+		padding: 1px 10px;
+	}
+	
+	#steps {
+    float: left;
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: 80px;
+    margin-left: 0px;
+	}
+/*
+	#plan{    
+		height: 710px;
+	}*/
+
+	#footer {
+		padding: 0 10px;
+	}
+}
+
+@media(max-width: 500px){
+	#apply_cont > p {
+    font-size: 16px;
+  }
+
+  #apply_cont h2 {
+    font-size: 40px;
+  }
+}
+
+@media(max-width: 400px){
+	#rights {
+	  width: 100%;
+	  float: none;
+	  display: block;
+	}
+
+	#chromecast{
+		width: 100%;
+		position: absolute;
+    bottom: -100px;
+    left: 1px;
+    z-index: 99;
+	}
+
+	#plan {
+    padding-bottom: 320px;
+	}
+
+	#footer {
+		height: inherit;
+	}
+	#apply{
+		    padding-bottom: 150px;
+	}
+}

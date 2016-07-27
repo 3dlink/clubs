@@ -1,0 +1,49 @@
+<html>
+  <header>
+    <head>
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
+    </head>
+    <style></style>
+    <script>
+      setTimeout(function(){
+        $('#text').css('display', 'block');
+        $('#text').addClass('animation-element animated fadeInDown');
+      }, 1000);
+    </script>
+    <style>
+      #cargando{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: black url('<?php echo $this->webroot;?>img/loading.gif') no-repeat center;
+      }
+      @media (max-width: 700px) {
+        body div{
+          background-image: url('img/coming2.png') !important;
+          width: 450px !important;
+          height: 400px !important;
+          margin-top:25% !important;
+        }
+      }
+      @media (max-width: 550px) {
+        body div{
+          width: 350px !important;
+          height: 320px !important;
+          margin-top:40% !important;
+          background-image: url('img/coming3.png') !important;
+        }
+      }
+    </style>
+  </header>
+  <body style="background-image: url('img/background.png'); background-size: cover; background-position: center center; background-repeat:no-repeat;">
+    <div id="cargando"></div>
+    <div id="text" style="display:none; width: 600px; height: 350px; margin: 0 auto;margin-top:15%;  background: url('img/coming1.png'); background-size: 100% 100%; background-position: center center; background-repeat:no-repeat;"></div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    $(window).load(function() {
+      $('#cargando').hide();
+    });
+  </script>
+</html>
